@@ -1,0 +1,452 @@
+    1  ls
+    2  dir
+    3  cd c:
+    4  ls
+    5  cd Python27/
+    6  ls
+    7  git init
+    8  ls -l
+    9  ls
+   10  git branch
+   11  pwd
+   12  ls -al
+   13  git config --global user.name "kbhat1234"
+   14  git config --global user.email karthikbhat@live.com
+   15  git remote add origin https://github.com/kbhat1234/DevopsTraining.git
+   16  git remote add origin https://github.com/kbhat1234/Python-Project.git
+   17  git remote remove origin
+   18  git remote add origin https://github.com/kbhat1234/Python-Project.git
+   19  git remote list
+   20  git remote show
+   21  ls
+   22  cd .git/
+   23  ls
+   24  cat config 
+   25  cd ..
+   26  ls
+   27  git status
+   28  ls -l
+   29  cd In
+   30  cd Info/
+   31  ls
+   32  git status
+   33  git add .
+   34  git status
+   35  git commit -m "Adding python files"
+   36  cd ..
+   37  ls
+   38  cd message/
+   39  ls
+   40  git add .
+   41  git status
+   42  git commit -m "Adding python files"
+   43  cd ..
+   44  ls
+   45  cd python
+   46  ls
+   47  git add .
+   48  git commit -m "Adding python files"
+   49  cd ..
+   50  ls
+   51  cd python_scripts/
+   52  pwd
+   53  git branch
+   54  git add .
+   55  git commit -m "Adding some more python directories"
+   56  git push origin master
+   57  cd ..
+   58  cd ..
+   59  cd Python27/
+   60  pwd
+   61  git push origin master
+   62  pwd
+   63  cd python
+   64  ls
+   65  git status
+   66  git add .
+   67  git status
+   68  git commit -m "adding python files"
+   69  git push origin master
+   70  git add .
+   71  git status
+   72  git commit -a -m "change done to datetimeTest.py"
+   73  git push origin master
+   74  git fetch origin
+   75  git pull origin master
+   76  git branch
+   77  git show branch
+   78  git show tag
+   79  git log
+   80  git log --pretty=oneline
+   81  git status
+   82  git add .
+   83  git status
+   84  git commit -a -m "Adding and modifying python files"
+   85  git push origin master
+   86  git fetch origin
+   87  git fetch origin master
+   88  git status
+   89  git pull master
+   90  git pull origin master
+   91  git status
+   92  git status
+   93  git add .
+   94  git status
+   95  git reset HEAD datetimeformat.py
+   96  git status
+   97  history
+   98  git commit -a -m "changes to datetimeformat.py"
+   99  git push origin master
+  100  git status
+  101  git commit -a -m "changes to datetimeformat.py"
+  102  git push origin master
+  103  git log HEAD
+  104  git show head
+  105  git log HEAD --pretty=oneline
+  106  git status
+  107  git status
+  108  git status
+  109  pwd
+  110  git add .
+  111  git status
+  112  git commit -m "Adding timedeltaTest.py"
+  113  git status
+  114  git push orogin master
+  115  git push origin master
+  116  git status
+  117  git commit -a -m "changes to timedeltaTest.py"
+  118  git push origin master
+  119  git status
+  120  git commit -a -m "changes to timedeltaTest.py"
+  121  git push origin master
+  122  exit
+  123  ls -l
+  124  pwd
+  125  pwd
+  126  cd c:
+  127  pwd
+  128  cd Python27/
+  129  ls
+  130  cd python
+  131  git status
+  132  git commit -a -m "change caltest.py"
+  133  git push origin master
+  134  exit
+  135  exit
+  136  c:
+  137  ls
+  138  git status
+  139  ls
+  140  ls -l
+  141  pwd
+  142  cd ../..
+  143  pwd
+  144  cd ..
+  145  c:
+  146  cd c:
+  147  pwd
+  148  ls
+  149  cd Python27/
+  150  ls
+  151  cd python
+  152  ls
+  153  history
+  154  c:
+  155  cd c:
+  156  pwd
+  157  cd Python27/
+  158  ls
+  159  cd python
+  160  ls
+  161  git status
+  162  ls
+  163  rm *.pyc
+  164  ls
+  165  git add .
+  166  git status
+  167  git commit -r "adding exception programs"
+  168  git commit -m "adding exception programs"
+  169  git push origin master
+  170  git branch
+  171  git status
+  172  ls
+  173  cd ..
+  174  pwd
+  175  ls
+  176  cd python programs
+  177  cd ..
+  178  pwd
+  179  cd Python27/
+  180  cd python_programs/
+  181  ls
+  182  rm *.pyc
+  183  ls -l
+  184  git status
+  185  git add .
+  186  git status
+  187  git commit -m "adding py files"
+  188  git push origin master
+  189  git status
+  190  ls
+  191  rm *.pyc
+  192  git add .
+  193  git status
+  194  git commit -m "Adding py files"
+  195  git push origin master
+  196  ls
+  197  rm *.pyc
+  198  git add .
+  199  git status
+  200  git commit -m "Adding py files"
+  201  git push origin master
+  202  exit
+  203  hiiok0
+  204  ]pvh]=]khu;hu
+  205  ]kph=\k[hu
+  206  jk;mp=h]jb[m
+  207  HB]np[k=jp
+  208  H'j[]\=gmnh=['jj
+  209  v1'[nmj7h1n=mj\4\4gy[=kitc-i7-t=ut=
+  210  [y\i7=k=j=kkl]p\7p[]p[p=j=[=jmj
+  211  '';///////////////./k[gu=[kn]p,=]kmp.[]
+  212  m,[, 
+  213  .\m.
+  214  m
+  215  git status
+  216  ls
+  217  cd eclipse-workspace/
+  218  ls
+  219  cd programs/
+  220  ;s
+  221  ls
+  222  cd src/
+  223  ls
+  224  cd main/
+  225  ls
+  226  cd java/
+  227  ls
+  228  cd com/
+  229  ls
+  230  cd java/
+  231  ls
+  232  cd programs/App.java 
+  233  pwd
+  234  cd programs/
+  235  pico App.java 
+  236  vi App.java 
+  237  git status
+  238  pwd
+  239  dir
+  240  cd Core\ Java/
+  241  ls
+  242  git init
+  243  git status
+  244  git remote show origin
+  245  git config --global user.name "Karthik"
+  246  git config --global user.email karthikbhat@live.com
+  247  git config --global user.name "kbhat1234"
+  248  git config --global user.email karthikbhat@live.com
+  249  git remote show origin
+  250  sudo su
+  251  java
+  252  git init
+  253  git remote show origin
+  254  ls
+  255  cd Anaconda3/
+  256  ls
+  257  cd Programs/
+  258  ls
+  259  vi exercise_set.py 
+  260  #!/bin/bash -e
+  261  sudo docker pull harness/delegate:latest
+  262  sudo docker run -d --restart unless-stopped --hostname=$(hostname -f) -e ACCOUNT_ID=1lzdp6sIRBuwqtAPez4nYQ -e ACCOUNT_SECRET=f6f0f1154f4471978225665ce2490942 -e MANAGER_HOST_AND_PORT=https://app.harness.io/gratis -e WATCHER_STORAGE_URL=https://app.harness.io/storage/wingswatchers -e WATCHER_CHECK_LOCATION=watcherprod.txt -e DELEGATE_STORAGE_URL=https://app.harness.io/storage/wingsdelegates -e DELEGATE_CHECK_LOCATION=delegatefree.txt -e DEPLOY_MODE=KUBERNETES -e PROXY_HOST= -e PROXY_PORT= -e PROXY_SCHEME= -e PROXY_USER= -e PROXY_PASSWORD= -e NO_PROXY= -e POLL_FOR_TASKS=false -e HELM_DESIRED_VERSION= harness/delegate:latest
+  263  git
+  264  git log
+  265  git --log
+  266  git -log
+  267  git config --global user.name kbhat1234
+  268  git --config --global user.email "karthikbhat@live.com"
+  269  git config --global user.email "karthikbhat@live.com"
+  270  git init
+  271  git status
+  272  ls
+  273  pwd
+  274  cd Selenium\ Learning/
+  275  ls
+  276  cd automation/
+  277  ls
+  278  vi pom.xml
+  279  ls
+  280  cd src
+  281  ls
+  282  cd main/
+  283  ls
+  284  cd java/
+  285  ls
+  286  cd com/
+  287  cd ..
+  288  cd inheritance/
+  289  ls
+  290  cd ../..
+  291  cd ../
+  292  cd ..
+  293  pwd
+  294  git init 
+  295  git status
+  296  git add
+  297  git add *
+  298  git status
+  299  git commit -a -m "adding new files"
+  300  git push source origin
+  301  git remote -v
+  302  git remote set-url origin https://github.com/kbhat1234/automation-selenium-java
+  303  git remote -v
+  304  ls
+  305  pwd
+  306  cd Selenium\ Learning/
+  307  LS
+  308  cd automation/
+  309  LS
+  310  git init .
+  311  git fetch
+  312  git status
+  313  history
+  314  git config --global user.name "kbhat1234"
+  315  git config --global user.email karthikbhat@live.com
+  316  git remote add origin https://github.com/kbhat1234/automation-selenium-java.git
+  317  git remote list
+  318  git remote show
+  319  git remote origin
+  320  git fetch origin
+  321  git init .
+  322  git add .
+  323  git status
+  324  git commit -a -m "add"
+  325  git push origin master
+  326  git push origin master
+  327  git config --global core.editor Vim
+  328  git config -list
+  329  git config --list
+  330  git remote show
+  331  git push origin master
+  332  git push origin master
+  333  git push origin master
+  334  git --help
+  335  git fetch origin
+  336  git pull origin
+  337  git remote pull
+  338  git pull origin master
+  339  git status
+  340  git init .
+  341  git add .
+  342  git status
+  343  git commit -m -a "hello"
+  344  pwd
+  345  ls
+  346  git init .
+  347  git stash
+  348  git push origin master
+  349  git remote --config
+  350  git remote -v
+  351  history
+  352  git remote list
+  353  git remote show
+  354  git remote show origin
+  355  touch a1.txt
+  356  git stats
+  357  git status
+  358  git add .
+  359  git commit -a -m "add"
+  360  git status
+  361  git push origin master
+  362  git push master origin
+  363  git push origin master
+  364  git fetch master
+  365  git fetch origin
+  366  ls
+  367  rm a1.txt
+  368  git status
+  369  git add .
+  370  git commit -a -m "delete"
+  371  git push origin master
+  372  git fetch origin
+  373  ls
+  374  ls
+  375  git config --global user.name "kbhat1234"
+  376  git config --global user.email karthikbhat@live.com
+  377  git remote add origin https://github.com/kbhat1234/automation-selenium-java.git
+  378  git push -u origin master
+  379  git remote add origin https://github.com/kbhat1234/core-selenium-java.git
+  380  git history
+  381  history
+  382  git remote set-url https://github.com/kbhat1234/core-selenium-java.git
+  383  git remote delete https://github.com/kbhat1234/core-selenium-java.git
+  384  git remote delete
+  385  git remote remove origin
+  386  git remote status
+  387  git remote -v
+  388  git remote list
+  389  git remote --config list
+  390  history
+  391  git remote show origin
+  392  pwd
+  393  ls
+  394  cd src/
+  395  l
+  396  ls
+  397  cd main/
+  398  ls
+  399  cd java/
+  400  ls
+  401  cd ../..
+  402  pwd
+  403  cd ..
+  404  pwd
+  405  ls
+  406  git init .
+  407  git add *
+  408  git status
+  409  git status
+  410  git remote show origin
+  411  history
+  412  git remote show origin
+  413   git remote add origin https://github.com/kbhat1234/automation-selenium-java.git
+  414  git remote show
+  415  get remote -v
+  416  get remote origin
+  417  git remote show origin
+  418  git commit -a -m "add new files"
+  419  git push origin master
+  420  git push --help
+  421  git push --help
+  422  git pull master origin
+  423  ls
+  424  ls -al
+  425  pwd
+  426  cd Selenium\ Learning/
+  427  ls
+  428  ls -al
+  429  cd automation/
+  430  ls
+  431  ls -al
+  432  git init .
+  433  git status
+  434  git add *
+  435  ls -al
+  436  git status
+  437  git push origin master
+  438  git push master origin
+  439  git pull origin master
+  440  git fetch https://github.com/kbhat1234/automation-selenium-java.git
+  441  git push origin master
+  442  git push -u origin master
+  443  history
+  444  git stash
+  445  git pull --rebase https://github.com/kbhat1234/automation-selenium-java.git
+  446  git push -u origin master 
+  447  git remote
+  448  git branch
+  449  git status
+  450  cd .classpath 
+  451  pwd
+  452  history > git.txt
