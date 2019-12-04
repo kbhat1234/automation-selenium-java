@@ -8,7 +8,7 @@ public class StudentTest {
 		s1.display();
 		
 		Student s2 = new Student(220,"Rini");
-		Student.college="Nitte";
+		Student.college="PESIT";
 		s2.display();
 		
 
