@@ -3,7 +3,6 @@
    13  git config --global user.name "kbhat1234"
    14  git config --global user.email karthikbhat@live.com
    15  git remote add origin https://github.com/kbhat1234/DevopsTraining.git
-   16  git remote add origin https://github.com/kbhat1234/Python-Project.git
    17  git remote remove origin
    18  git remote add origin https://github.com/kbhat1234/Python-Project.git
    19  git remote list
@@ -31,6 +30,29 @@
   318  git remote show
   319  git remote origin
   320  git fetch origin
-  422  git pull master origin
+  422  git pull origin master
   440  git fetch https://github.com/kbhat1234/automation-selenium-java.git
+  git clone https://github.com/kbhat1234/excord.git
   442  git push -u origin master
+       git revert 1571b5445
+       git log -3
+  563  git diff 88a47f04 1571b5445d
+  git reset --soft ca9893877
+  git reset --mixed ca9893877
+  git reset --hard ca9893877
+  git clean -df
+  git reflog
+  git cherry-pick aa77abb999
+  git diff
+  git branch -a
+  git add .
+  git add *
+  git add -A
+  git add a.txt,b.txt
+  touch a.txt
+  git commit -a -m "Add/delete"
+  git commit -amend -a -m "renaming the comment"
+  git branch sanity
+  git checkout sanitygit branch -d sanity
+  git push origin --delete sanity
+  
