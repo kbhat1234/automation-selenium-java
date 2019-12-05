@@ -6,6 +6,7 @@ DROP DATABASE raagab502;
 CREATE TABLE cus_tbl(cus_id INT NOT NULL AUTO_INCREMENT, cus_fname VARCHAR(30) NOT  NULL, cus_lname VARCHAR(20) NOT NULL, PRIMARY KEY(cus_id));
 SHOW TABLES;
 DESC cus_tbl;
+
 INSERT INTO cus_tbl VALUES (NULL,'kolte patil raaga','kaustubh','bhat');
 SELECT * FROM cus_tbl;
 
@@ -28,12 +29,6 @@ ADD cus_age INT NOT NULL;
 SELECT * FROM cus_tbl;
 DESC cus_tbl;
 
-CREATE TABLE employee(id INT,fname VARCHAR(20),lname VARCHAR(20),address TEXT(300));
-INSERT INTO employee VALUES (63,'karthik','bhat','kolte patil raaga');
-USE raagab502;
-DROP TABLE employee;
-SELECT REGEXP_LIKE('aa','AA') FROM employee;
-
 ALTER TABLE cus_tbl
 ADD cus_salary DOUBLE(10,2)
 AFTER salary,
@@ -53,12 +48,6 @@ TEXT NULL;
 ALTER TABLE cus_tbl
 RENAME TO cus_table;
 
-DESC cus_table;
-SELECT * FROM cus_tbl;
-DESC cus_table;
-
-SHOW TABLES;
-
 TRUNCATE TABLE cus_tbl;
 DROP TABLE employee;
 
@@ -73,11 +62,10 @@ select * from customers;
 alter view customers as
 select * from cus_tbl;
 
-drop view customers1
-
-insert into emp values (90,'abc','xyz');
+drop view customers1;
 
 insert into emp(cus_id,cus_firstname,cus_surname) values (77,'chaavi','kumar');
+
 insert into emp(cus_id,cus_firstname,cus_surname)
 values
 (88,'karthik','pai'),
