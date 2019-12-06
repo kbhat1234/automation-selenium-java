@@ -23,19 +23,8 @@
     #gives list all branches both locally and remote
     git branch -a
     
-    #gives verbose based list
-    git branch -v
-    
-    #gives status information in short
-    git branch -s
-    
-    #gives untrached info of branch
-    git branch -u
-    
-    #gives branch info
-    git branch -b
-    
-    #gives branch 
+    #gives remote branch
+    git branch -r
     
     #gives html link about the <verb> help provided
     git help add
