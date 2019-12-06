@@ -75,4 +75,20 @@ select * from cus_tbl where cus_name like 'k%k';
 
 select * from cus_tbl where cus_rating in (5,20,1);
 select * from cus_tbl where cus_name in ('karthik','Ishani1','Rini','Kaustubh');
-select * from cus_tbl where cus_name in ('karthik3','Ishani1','Rini3','K3austubh');
+select * from cus_tbl where cus_name in ('karthik3','Ishani1','Rini3','K3austubh'); 
+
+#mysql comments
+select * from  #table name
+cus_tbl  #comment here as
+where cus_name=#karthik
+"karthik";
+
+-- mysql comments
+select * from  -- table name
+cus_tbl  -- customer table
+where cus_name=-- karthik
+"karthik";
+
+/*mysql comments*/
+select * from /*table name*/ cus_tbl
+where /*where condition*/ cus_name=/*provide name*/'karthik';
