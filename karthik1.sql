@@ -72,3 +72,7 @@ select * from cus_tbl where cus_name like 'k__%';
 
 -- will list all customers names that start with "k" and end with "k"
 select * from cus_tbl where cus_name like 'k%k';
+
+select * from cus_tbl where cus_rating in (5,20,1);
+select * from cus_tbl where cus_name in ('karthik','Ishani1','Rini','Kaustubh');
+select * from cus_tbl where cus_name in ('karthik3','Ishani1','Rini3','K3austubh');
