@@ -45,12 +45,20 @@
     #shows status with branch info
     git status -b
     
+    #gives all commit info onto local repo
+    git log
+    
+    #gives last couple of logs
+    git log -5
+    
+    #log output 
+    git log --pretty=oneline
+    
    15  git remote add origin https://github.com/kbhat1234/DevopsTraining.git
    17  git remote remove origin
    18  git remote add origin https://github.com/kbhat1234/Python-Project.git
    19  git remote list
    20  git remote show
-   27  git status
    33  git add .
    61  git push origin master
    74  git fetch origin
