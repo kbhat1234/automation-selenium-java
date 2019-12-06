@@ -30,6 +30,21 @@
     git help add
     git add --help
     
+    #shows status of changed/new files locally
+    git status
+    
+    #shows short status
+    git status -s
+    
+    #shows long status
+    git status --long
+    
+    #shows status of untracked files
+    git status -u
+    
+    #shows status with branch info
+    git status -b
+    
    15  git remote add origin https://github.com/kbhat1234/DevopsTraining.git
    17  git remote remove origin
    18  git remote add origin https://github.com/kbhat1234/Python-Project.git
