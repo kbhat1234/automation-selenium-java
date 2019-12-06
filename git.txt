@@ -54,6 +54,14 @@
     #log output 
     git log --pretty=oneline
     
+    #add files from working directory to staging
+    git add .
+    git add *
+    git add -A
+    
+    #add selected files mentioned 
+    git add a1.txt
+    
    15  git remote add origin https://github.com/kbhat1234/DevopsTraining.git
    17  git remote remove origin
    18  git remote add origin https://github.com/kbhat1234/Python-Project.git
