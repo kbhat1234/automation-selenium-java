@@ -1,7 +1,46 @@
-    7  git init
-   10  git branch
-   13  git config --global user.name "kbhat1234"
-   14  git config --global user.email karthikbhat@live.com
+    #gives the git version installed.
+    git --version
+    
+    #initializes the folder/files to .git repo.
+    git init
+    
+    #gives the global config list (sample cofig list is attached)
+    git config --list
+    
+    #accessing the global config values
+    git config user.email
+    git config user.name
+    git config remote.origin.url
+    
+    #setting global config property values.
+    git config --global user.name "kbhat1234"
+    git config --global user.name "karthikbhat@live.com"
+    git config --global help.format xml
+    
+    #gives the list of branches which are locally
+    git branch
+    
+    #gives list all branches both locally and remote
+    git branch -a
+    
+    #gives verbose based list
+    git branch -v
+    
+    #gives status information in short
+    git branch -s
+    
+    #gives untrached info of branch
+    git branch -u
+    
+    #gives branch info
+    git branch -b
+    
+    #gives branch 
+    
+    #gives html link about the <verb> help provided
+    git help add
+    git add --help
+    
    15  git remote add origin https://github.com/kbhat1234/DevopsTraining.git
    17  git remote remove origin
    18  git remote add origin https://github.com/kbhat1234/Python-Project.git
