@@ -53,4 +53,22 @@ select cus_id, cus_name, cus_salary from cus_tbl where cus_salary>99999999999 or
 select cus_id, cus_name, cus_salary from cus_tbl where ((cus_surname='bhat' and cus_rating<3) or (cus_gender='M')); 
 select cus_id, cus_name, cus_salary from cus_tbl where ((cus_surname='bhat' and cus_rating<3) or (cus_id<8));
 
-se
+select * from cus_tbl;
+
+# will list customer names starting with "a"
+select cus_id, cus_name from cus_tbl where cus_name like 'a%'; 
+
+# will lsit customer names ends with "i"
+select cus_id, cus_name from cus_tbl where cus_name like '%i';
+
+# will list all customer names which have a substring "ust"
+select cus_id, cus_name from cus_tbl where cus_name like '%ust%';
+
+# will list all customer names that have "n" in 3rd position
+select cus_id, cus_name from cus_tbl where cus_name like '__n%';
+
+/*will list all customer names that start with "k"  and are atleast 3 characters in length*/
+select * from cus_tbl where cus_name like 'k__%';
+
+-- will list all customers names that start with "k" and end with "k"
+select * from cus_tbl where cus_name like 'k%k';
